@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+    fastapi:
+      build:
+        context: .
+        dockerfile: ./compose/fastapi/Dockerfile
+      image: currency_converter_services
+      ports:
+        - 8000:8000
+      command: /start

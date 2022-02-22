@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Date, Integer, String, Float
 
-from sql_app.database import Base
+from database import Base
+
 
 class Currency(Base):
     __tablename__ = "currency"
