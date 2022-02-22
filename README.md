@@ -6,6 +6,11 @@ API for currency conversion are:
 - BTC
 - ETH
 
+## Date Coin Quotation
+
+For this project, the quotation of 02/21/2022 was used.
+
+
 ## Introduction
 
 Description of technologies used and expectations
